@@ -125,6 +125,18 @@ header
   .year-img img{
     width: 70px;
   }
+  /* section-4 */
+  .product-items{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  .product-items img{
+    width: 100%
+    
+  }
+  
 
   
 
