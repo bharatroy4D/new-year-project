@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Merriweather&family=Work+Sans:ital,wght@1,700&display=swap');
+
+  *{
+          margin:0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Lato', sans-serif;
+
+  }
+  /* common class */
+.container{
+           width: 80%;
+          margin: 0 auto;
+}
+/* header section start */
+header
+
+.head-cover{
+          background-image: url("images/Banner\ Image.png");
+          object-fit: cover;
+          background-repeat: no-repeat;  
+          width: 100vw;
+          height: 100vh;
+          background-position: center;
+          background-size: 80%;
+          
+          
+}
+.cover-description h3{
+  display: flex;
+  font-size: 25px;
+  color: whitesmoke;
+  font-weight: 50;
+  justify-content: center;
+  align-items: center;
+  padding-top: 310px;
+}
+
+.cover-description h1{
+  display: flex;
+  font-size: 60px;
+  color: whitesmoke; 
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+} 
+/* .catagory-content start */
+
+.catagory-content{
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+
+}
+.catagory-content h1 {
+  color: brown;
+  font-size:60px ;
+}
+
+.catagory-content h5 {
+  color: brown;
+  /* text-align: center; */
+  /* margin-top: 10px; */
+  
+}
+.catagory-content h2{
+  /* text-align: center; */
+  /* margin-top: 10px; */
+}
+
+
+
+
