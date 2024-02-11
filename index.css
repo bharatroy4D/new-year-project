@@ -20,10 +20,10 @@ header
           background-image: url("images/Banner\ Image.png");
           object-fit: cover;
           background-repeat: no-repeat;  
-          width: 100vw;
           height: 100vh;
           background-position: center;
-          background-size: 80%;
+          background-size: 100%;
+        
           
           
 }
@@ -63,14 +63,71 @@ header
 
 .catagory-content h5 {
   color: brown;
-  /* text-align: center; */
-  /* margin-top: 10px; */
+
+}
+
+  /* section-two start */
+  .party-container{
+    background-image: url('images/Vectorrr.png');
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aqua;
+  }
+
+  .party-content h1{
+    font-size: 40px;
+
+  }
+
+  .party-content p{
+    font-size: 20px;
+  }
+
+  .party-content button{
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    color: whitesmoke;
+    border: none;
+    background: none;
+    font-weight: 100px;
+    padding-left: 25px;
+  }
+  .party-img img{
+    width: 250px;
+    
+  }
+  /* section-3 */
   
-}
-.catagory-content h2{
-  /* text-align: center; */
-  /* margin-top: 10px; */
-}
+  .profile-container{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .column{
+    width: 25%;
+  }
+
+  .personal-img img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 6px;
+  }
+  .year-img img{
+    width: 70px;
+  }
+
+  
+
 
 
 
